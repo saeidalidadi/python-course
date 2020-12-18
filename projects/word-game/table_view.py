@@ -1,7 +1,7 @@
 import tkinter as tk
 
 import tkinter as tk
-import random
+import random 
 
 alphebet = [
     ["a","b","c","d","e","y"],

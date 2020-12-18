@@ -29,4 +29,4 @@ def drawTable(window, side):
       label.pack(padx=10, pady=10) 
 
 def ree(hi):
-  a = 3
+  a = 4

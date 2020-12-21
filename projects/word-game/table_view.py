@@ -8,6 +8,8 @@ alphebet =[
   ["z","f","b","n","h","r"],
   ["w","f","k","l","q","z"],
   ]
+
+
 def drawTable(window, side):
   """Create an side*side grids
   Args: commit
@@ -16,7 +18,12 @@ def drawTable(window, side):
   Returns:
     None 
   """
+  reader = open('word.txt') 
+ 
+  lines = reader.read().splitlines()
   for row in range(side):
+    myline =random.choice(lines)
+    print(myline)
     for col in range(side):
       letter_container = tk.Frame(master=window, relief=tk.RIDGE,  borderwidth=6)
       letter_container.grid(row=row, column=col)

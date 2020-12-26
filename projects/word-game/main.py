@@ -1,5 +1,6 @@
 import tkinter as tk
 import table_view as tw
+import random_words as rw
 
 window = tk.Tk()
 window.title("word game")
@@ -12,6 +13,8 @@ letterSequence = [
     ["t","g","h","m","n"],
     ["x","b","h","v","k"]
 ]
+
+print(rw.readRandomWords(3))
 
 tw.drawTable(window, 5, letterSequence)
 

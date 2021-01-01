@@ -60,7 +60,7 @@ jangling
 roller
 bombus
 dichotic
-ear hole
+ear
 acoustic
 address
 addressing
@@ -68,7 +68,7 @@ alveolar
 amanita
 annulus
 anthelion
-arcus senilis
+arcus
 articulate
 articulation
 asperity
@@ -79,9 +79,9 @@ aurally
 ban
 bann
 banned
-bass drum
+bass
 bat
-blow out
+blow
 blowball
 bonk
 brain

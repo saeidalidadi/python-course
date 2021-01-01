@@ -1,21 +1,13 @@
 import tkinter as tk
 import table_view as tw
-import random_words as rw
+import words as wd
 
 window = tk.Tk()
 window.title("word game")
 window.geometry("500x500")
 
-letterSequence = [
-    ["a","b","c","d","e"],
-    ["f","g","h","i","n"],
-    ["x","z","h","v","n"],
-    ["t","g","h","m","n"],
-    ["x","b","h","v","k"]
-]
-
-print(rw.readRandomWords(3))
-
-tw.drawTable(window, 5, letterSequence)
+word_list = wd.readRandomWords(10)
+letters_sequence = wd.wordToLetters(word_list)
+tw.drawTable(window, letters_sequence)
 
 window.mainloop()

@@ -4,7 +4,7 @@ import words as wd
 
 window = tk.Tk()
 window.title("word game")
-window.geometry("500x500")
+window.geometry("700x500")
 
 word_list = wd.readRandomWords(10)
 letters_sequence = wd.wordToLetters(word_list)
